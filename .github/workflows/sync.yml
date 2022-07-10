@@ -15,8 +15,9 @@ jobs:
       # uses: denis-tingaikin/sync-files@7cf3a71d4530214ecee324faf12cf884a275d366
       uses: denis-tingaikin/sync-files@v1.0.2
       with:
-        git-author-email: lightjiao@gmail.com
-        git-author-name: lightjiao
+        git-author-email: greatghoul@gmail.com
+        git-author-name: greatghoul
         sync-repository: lightjiao/lightjiao.github.io
         sync-branch-name: master
         result-branch-name: master
+        allow-files-pattern: "Blogs\/.*\\.md"
