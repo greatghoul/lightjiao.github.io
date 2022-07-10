@@ -13,6 +13,6 @@ jobs:
       with:
         git-author-email: lightjiao@gmail.com
         git-author-name: lightjiao
-        sync-repository: lightjiao/lightjiao.github.io
+        sync-repository: https://github.com/lightjiao/lightjiao.github.io.git
         sync-branch-name: master
         result-branch-name: master
