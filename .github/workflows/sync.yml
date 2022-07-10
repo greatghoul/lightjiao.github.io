@@ -6,6 +6,10 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout files
+      uses: actions/checkout@v2
+      with:
+        repository: greatghoul/lightjiao.github.io
     - name: Sync files
       # You may pin to the exact commit or the version.
       # uses: denis-tingaikin/sync-files@7cf3a71d4530214ecee324faf12cf884a275d366
