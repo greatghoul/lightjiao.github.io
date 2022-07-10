@@ -20,4 +20,4 @@ jobs:
         sync-repository: lightjiao/lightjiao.github.io
         sync-branch-name: master
         result-branch-name: master
-        allow-files-pattern: "Blogs\/.*\\.md"
+        allow-files-pattern: "Blogs/.*"
